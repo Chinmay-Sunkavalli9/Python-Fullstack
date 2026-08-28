@@ -1,0 +1,98 @@
+DAY 23 – METHODS AND CONSTRUCTORS
+
+1. INSTANCE METHOD
+
+An Instance Method works with object data.
+
+It uses self as the first parameter.
+
+self refers to the current object.
+
+
+2. CLASS METHOD
+
+A Class Method works with class-level data.
+
+It uses cls as the first parameter.
+
+cls refers to the class itself.
+
+
+3. STATIC METHOD
+
+A Static Method is independent of object and class data.
+
+It is mainly used for utility tasks.
+
+
+4. CONSTRUCTOR
+
+A constructor is used to initialize objects
+when they are created.
+
+In Python, __init__() is used as a constructor.
+
+
+5. NON-PARAMETERIZED CONSTRUCTOR
+
+A Non-Parameterized Constructor is a constructor
+without parameters apart from self.
+
+It is used when the object does not need any
+external values during initialization.
+
+
+6. PARAMETERIZED CONSTRUCTOR
+
+A Parameterized Constructor is a constructor that
+accepts parameters to initialize object data.
+
+It allows different objects to be initialized
+with different values.
+
+
+7. TYPES OF METHODS
+
+Python OOP mainly has three types of methods:
+
+• Instance Method
+• Class Method
+• Static Method
+
+
+8. INSTANCE METHOD vs CLASS METHOD vs STATIC METHOD
+
+Instance Method
+→ Works with object data
+→ Uses self
+
+Class Method
+→ Works with class-level data
+→ Uses cls
+
+Static Method
+→ Independent of object and class data
+→ Mainly used for utility tasks
+
+
+9. CONSTRUCTOR TYPES
+
+• Non-Parameterized Constructor
+• Parameterized Constructor
+
+
+KEY TAKEAWAY
+
+Instance Method → Object data → self
+
+Class Method → Class-level data → cls
+
+Static Method → Independent of object and class
+
+Constructor → Initializes objects
+
+Non-Parameterized Constructor → No parameters
+apart from self
+
+Parameterized Constructor → Accepts parameters
+to initialize object data

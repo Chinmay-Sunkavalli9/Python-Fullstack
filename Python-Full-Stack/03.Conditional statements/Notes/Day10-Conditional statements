@@ -1,0 +1,73 @@
+DAY 10 – CONDITIONAL STATEMENTS
+
+Conditional statements are used to check conditions and execute
+different blocks of code based on True or False.
+
+TYPES:
+1. if
+2. if-else
+3. elif
+4. Nested if
+
+1. IF STATEMENT
+
+Executes a block only when the condition is True.
+
+Syntax:
+if condition:
+    statements
+
+2. IF-ELSE STATEMENT
+
+If condition is True → if block executes.
+If condition is False → else block executes.
+
+Syntax:
+if condition:
+    statements
+else:
+    statements
+
+3. ELIF STATEMENT
+
+Used to check multiple conditions one after another.
+
+Syntax:
+if condition:
+    statements
+elif condition:
+    statements
+else:
+    statements
+
+4. NESTED IF
+
+An if statement placed inside another if statement.
+
+Syntax:
+if condition:
+    if condition:
+        statements
+
+5. CONDITIONS
+
+A condition always evaluates to:
+- True
+- False
+
+6. COMPARISON OPERATORS
+
+>   Greater than
+<   Less than
+>=  Greater than or Equal
+<=  Less than or Equal
+==  Equal to
+!=  Not Equal
+
+KEY POINTS
+
+- if executes when the condition is True.
+- if-else executes one of the two blocks.
+- elif is used for multiple conditions.
+- Nested if means an if statement inside another if.
+- Conditions return True or False.

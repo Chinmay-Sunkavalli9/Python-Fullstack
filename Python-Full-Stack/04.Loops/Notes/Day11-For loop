@@ -1,0 +1,183 @@
+DAY 11 – FOR LOOP
+
+1. WHAT IS A LOOP
+
+A loop is used to execute a block of code repeatedly.
+
+Advantages of loops:
+
+• Reduces code repetition
+• Saves development time
+• Makes code shorter
+• Improves code readability
+• Makes repetitive tasks easier to automate
+
+
+2. TYPES OF LOOPS IN PYTHON
+
+Python mainly provides two types of loops:
+
+• for loop
+• while loop
+
+In this lesson, the focus is on the for loop.
+
+
+3. FOR LOOP
+
+The for loop is used to iterate over a sequence or iterable.
+
+Examples of iterables include:
+
+• List
+• Tuple
+• String
+• Set
+• Dictionary
+• Range
+
+Syntax:
+
+for variable in iterable:
+    statements
+
+
+4. HOW FOR LOOP WORKS INTERNALLY
+
+A for loop internally works with an iterator.
+
+The general process is:
+
+Iterable
+↓
+iter()
+↓
+Iterator
+↓
+next()
+↓
+Next value
+↓
+Repeat until StopIteration
+
+The for loop automatically performs this process.
+
+
+5. ITER() FUNCTION
+
+The iter() function is used to obtain an iterator from an iterable.
+
+Iterable → Object that can be iterated over.
+
+Iterator → Object that produces values one at a time.
+
+
+6. NEXT() FUNCTION
+
+The next() function gets the next value from an iterator.
+
+When the iterator has no more values, it raises StopIteration.
+
+
+7. RANGE() FUNCTION
+
+The range() function creates a range object representing
+a sequence of numbers.
+
+The stop value in range() is excluded.
+
+For example, a range from 1 to 5 produces values from 1 to 4.
+
+
+8. REVERSE LOOP
+
+A for loop can be used to iterate through values
+in reverse order.
+
+
+9. IF INSIDE A FOR LOOP
+
+An if statement can be used inside a for loop.
+
+for → Controls repetition
+
+if → Controls selection
+
+The condition is checked for every iteration.
+
+
+10. EVEN NUMBERS USING FOR LOOP
+
+A for loop can be combined with an if condition
+to check whether each number is even.
+
+The condition for an even number is:
+
+number % 2 == 0
+
+
+11. COMPLETE CONCEPT FLOW
+
+Iterable
+↓
+iter()
+↓
+Iterator
+↓
+next()
+↓
+Value
+↓
+next()
+↓
+Next value
+↓
+StopIteration
+↓
+For loop stops
+
+
+12. IMPORTANT INTERVIEW POINTS
+
+What is a loop?
+
+A loop is used to repeatedly execute a block of code.
+
+What are the two main loops in Python?
+
+• for loop
+• while loop
+
+What is range()?
+
+range() creates a range object representing a sequence of numbers.
+
+Is the stop value included in range()?
+
+No. The stop value is excluded.
+
+What does iter() do?
+
+iter() obtains an iterator from an iterable.
+
+What does next() do?
+
+next() retrieves the next value from an iterator.
+
+What happens when an iterator has no more values?
+
+It raises StopIteration.
+
+Does the programmer manually call next() in a normal for loop?
+
+No. The for loop internally obtains an iterator and repeatedly
+requests the next value until the iterator is exhausted.
+
+
+KEY TAKEAWAY
+
+for loop → Repeats over an iterable
+iter() → Creates an iterator
+next() → Gets the next value
+range() → Creates a sequence of numbers
+StopIteration → Indicates that the iterator is exhausted

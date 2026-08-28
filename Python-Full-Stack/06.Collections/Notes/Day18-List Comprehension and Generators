@@ -1,0 +1,132 @@
+DAY 18 – LIST COMPREHENSION AND GENERATORS
+
+1. LIST
+
+A list is a collection of items.
+
+Lists are written using square brackets [].
+
+A list can contain different types of data.
+
+
+2. LIST COMPREHENSION
+
+List comprehension is a short and powerful way to create new lists by using a loop in one line.
+
+Syntax:
+
+[expression for item in iterable if condition]
+
+expression → What to do with the item.
+item → Variable name for each value.
+iterable → Collection being looped over.
+condition → Optional condition used to filter items.
+
+
+3. LIST COMPREHENSION WITH DIFFERENT DATA TYPES
+
+List comprehension can be used with:
+
+• Strings
+• Integers
+• Floats
+• Boolean values
+• Tuples
+• Dictionaries
+
+
+4. NESTED LIST COMPREHENSION
+
+Nested list comprehension contains more than one loop in a single list comprehension.
+
+It can be used to work with nested data and flatten nested collections.
+
+
+5. GENERATORS
+
+Generators are a special type of iterable.
+
+They allow data to be processed efficiently without storing everything in memory.
+
+Generators generate values lazily using the yield keyword.
+
+
+6. WHY DO WE NEED GENERATORS?
+
+Memory Efficiency:
+Generators generate values on the fly instead of storing the entire dataset.
+
+Performance Boost:
+They avoid unnecessary storage and can improve performance for large datasets.
+
+Infinite Sequences:
+Generators can work with infinite sequences without using large amounts of memory.
+
+Pipeline Processing:
+They are useful when data is processed in chunks, such as streaming data.
+
+
+7. HOW GENERATORS WORK
+
+A generator function looks like a normal function but uses yield instead of return.
+
+When a generator function is called, it does not execute immediately.
+
+It returns a generator object.
+
+The generator can be iterated using a loop or the next() function.
+
+
+8. YIELD KEYWORD
+
+The yield keyword produces a value without terminating the function.
+
+The function pauses at yield and remembers its state.
+
+When next() is called again, execution continues from where it stopped.
+
+
+9. NEXT() FUNCTION
+
+The next() function is used to manually iterate through generator values.
+
+It moves the execution to the next yield statement.
+
+When all values are exhausted, StopIteration is raised.
+
+
+10. FUNCTIONS VS GENERATORS
+
+Functions:
+
+• Store all values in memory.
+• Run once and return a value.
+• Use return to return a result.
+• Cannot be directly iterated over.
+
+Generators:
+
+• Generate values one by one.
+• Save memory.
+• Can pause and resume execution.
+• Use yield to produce multiple values.
+• Can be used in loops like an iterator.
+
+
+11. REAL-WORLD APPLICATIONS OF GENERATORS
+
+• Streaming large data
+• Infinite news feeds
+• Log file processing
+• Music streaming
+
+
+KEY TAKEAWAY
+
+List Comprehension provides a concise way to create lists.
+
+Generators produce values one at a time and are memory-efficient.
+
+yield produces a value and pauses execution.
+
+next() moves the generator to the next value.

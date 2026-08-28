@@ -1,0 +1,126 @@
+DAY 09 – SETS & DICTIONARIES
+
+SETS
+
+A set is an unordered, mutable collection of unique values.
+
+Example:
+numbers = {10, 20, 30}
+
+PROPERTIES
+- Unordered
+- Mutable
+- Unindexed
+- Unique elements
+- Iterable
+- Allows different data types
+
+EMPTY SET
+
+s = set()
+
+SET OPERATIONS
+
+Union:
+a | b
+
+Intersection:
+a & b
+
+Difference:
+a - b
+
+Symmetric Difference:
+a ^ b
+
+Subset:
+a <= b
+
+Superset:
+a >= b
+
+SET METHODS
+
+add()
+update()
+remove()
+discard()
+pop()
+clear()
+copy()
+
+Relationship Methods:
+union()
+intersection()
+difference()
+symmetric_difference()
+issubset()
+issuperset()
+isdisjoint()
+
+FROZENSET
+
+A frozenset is an immutable version of a set.
+
+Example:
+data = frozenset({10, 20, 30})
+
+Properties:
+- Immutable
+- Unordered
+- Unique elements
+- Hashable
+
+
+DICTIONARIES
+
+A dictionary stores data as key-value pairs.
+
+Example:
+student = {
+    "id": 101,
+    "name": "Ravi",
+    "course": "Python"
+}
+
+PROPERTIES
+- Ordered
+- Mutable
+- Accessed using keys
+- Keys must be unique
+- Duplicate values are allowed
+- Iterable
+- Supports nested structures
+
+COMMON DICTIONARY OPERATIONS
+
+Access:
+student["name"]
+student.get("name")
+
+Add / Update:
+student["age"] = 23
+
+Delete:
+del student["age"]
+
+COMMON METHODS
+
+keys()
+values()
+items()
+get()
+update()
+pop()
+popitem()
+clear()
+copy()
+
+KEY POINTS
+
+- Set stores unique values.
+- Dictionary stores key-value pairs.
+- Empty set: set()
+- {} creates an empty dictionary.
+- Dictionary keys must be unique and hashable.
+- Frozenset is immutable.

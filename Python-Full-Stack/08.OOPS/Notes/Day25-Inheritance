@@ -1,0 +1,73 @@
+DAY 25 – INHERITANCE
+
+1. INHERITANCE
+
+Inheritance is an OOP concept where properties
+and methods can be acquired from one class to another.
+
+It helps in code reusability and represents
+parent-child relationships between classes.
+
+
+2. SINGLE INHERITANCE
+
+Single Inheritance means one child class inherits
+from one parent class.
+
+
+3. MULTIPLE INHERITANCE
+
+Multiple Inheritance means a child class inherits
+from more than one parent class.
+
+
+4. MULTILEVEL INHERITANCE
+
+Multilevel Inheritance is a chain of inheritance.
+
+A child class can access methods of its parent
+and grandparent classes.
+
+
+5. HIERARCHICAL INHERITANCE
+
+Hierarchical Inheritance means multiple child
+classes inherit from one parent class.
+
+
+6. HYBRID INHERITANCE
+
+Hybrid Inheritance is a combination of two or
+more types of inheritance.
+
+
+7. MRO – METHOD RESOLUTION ORDER
+
+MRO stands for Method Resolution Order.
+
+It defines the order in which Python searches
+for methods in inheritance, especially in
+multiple inheritance.
+
+
+8. super()
+
+super() is used to call the parent class's
+methods or constructor from the child class.
+
+
+KEY TAKEAWAY
+
+Single Inheritance → One parent → One child
+
+Multiple Inheritance → More than one parent
+
+Multilevel Inheritance → Parent → Child → Grandchild
+
+Hierarchical Inheritance → One parent → Multiple children
+
+Hybrid Inheritance → Combination of inheritance types
+
+MRO → Defines the method search order
+
+super() → Accesses parent class methods or constructor

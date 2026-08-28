@@ -1,0 +1,119 @@
+DAY 03 – PYTHON BASICS
+
+1. COMMENTS
+- Comments are ignored by the Python interpreter.
+- Used to explain code, improve readability, add notes, and temporarily disable code.
+- Single-line: # comment
+- Multi-line: '''...''' or """..."""
+
+2. SWAPPING TWO VARIABLES
+
+Using third variable:
+temp = a
+a = b
+b = temp
+
+Without third variable:
+a = a + b
+b = a - b
+a = a - b
+
+Pythonic / Recommended:
+a, b = b, a
+
+3. VARIABLES
+- A variable is a name that refers to an object/value.
+- Syntax: variable_name = value
+
+Example:
+age = 22
+name = "Harish"
+percentage = 95.5
+
+4. PYTHON DATA TYPES
+- str → text
+- int → whole numbers
+- float → decimal numbers
+- complex → real + imaginary parts
+- list → ordered, mutable collection
+- tuple → ordered, immutable collection
+- range → sequence of numbers
+- bool → True/False
+- NoneType → None
+
+5. STRING (str)
+- Text enclosed in quotes.
+- Immutable, ordered, and supports indexing.
+
+Example:
+name = "Python"
+print(name[0])   # P
+
+6. NUMERIC TYPES
+
+int:
+age = 23
+
+float:
+price = 99.5
+
+complex:
+z = 4 + 5j
+z.real  # 4.0
+z.imag  # 5.0
+
+7. LIST
+- Uses [ ]
+- Ordered, mutable, indexed
+- Allows duplicates and different data types.
+
+Example:
+cart = ["Shoes", "Shirt", "Watch"]
+cart.append("Bag")
+
+8. TUPLE
+- Uses ( )
+- Ordered, indexed, immutable
+- Allows duplicate values.
+
+Example:
+colors = ("Red", "Blue", "Green")
+
+Single-item tuple requires a comma:
+student = ("Raju",)
+
+- The comma makes it a tuple.
+
+9. LIST vs TUPLE
+
+List → [ ], mutable
+Tuple → ( ), immutable
+
+10. RANGE
+- Generates a sequence of numbers.
+- Commonly used with loops.
+
+range(stop)
+range(5) → 0, 1, 2, 3, 4
+
+range(start, stop)
+range(2, 8) → 2, 3, 4, 5, 6, 7
+
+range(start, stop, step)
+range(0, 10, 2) → 0, 2, 4, 6, 8
+
+11. CHECK DATA TYPE
+
+Use type():
+
+print(type(variable))
+
+Example:
+name = "Raju"
+age = 23
+marks = 97.5
+
+type(name)  → str
+type(age)   → int
+type(marks) → float
+

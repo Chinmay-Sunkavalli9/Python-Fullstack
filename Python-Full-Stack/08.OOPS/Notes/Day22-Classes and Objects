@@ -1,0 +1,234 @@
+DAY 22 – CLASSES AND OBJECTS
+
+1. OBJECT-ORIENTED PROGRAMMING
+
+Object-Oriented Programming (OOP) is a programming
+paradigm that organizes a program around objects.
+
+An object contains:
+
+• Attributes → Data or properties
+• Methods → Behavior or actions
+
+OOP helps represent real-world entities in software
+and makes programs easier to design, maintain and extend.
+
+
+2. CLASSES
+
+A class is a blueprint or template used to create objects.
+
+It defines the attributes and methods that objects
+created from the class can have.
+
+A class is only a design until an object is created.
+
+
+3. OBJECTS
+
+An object is an instance of a class.
+
+Objects are the real entities created from a class.
+
+A single class can be used to create multiple objects.
+
+
+4. ATTRIBUTES
+
+Attributes are variables that store information
+about a class or an object.
+
+There are two main types:
+
+• Class Attributes
+• Instance Attributes
+
+
+5. CLASS ATTRIBUTES
+
+A class attribute belongs to the class itself.
+
+It is shared by all objects created from that class.
+
+A change in a class attribute can be reflected
+in all objects unless an object overrides it.
+
+
+6. INSTANCE ATTRIBUTES
+
+An instance attribute belongs to a specific object.
+
+Each object has its own values for instance attributes.
+
+Instance attributes are usually created inside
+the constructor.
+
+
+7. METHODS
+
+A method is a function defined inside a class.
+
+Methods describe the behavior or actions that
+an object can perform.
+
+
+8. INSTANCE METHODS
+
+An instance method works with a specific object.
+
+It receives self as its first parameter.
+
+self represents the current object that calls
+the method.
+
+
+9. CLASS METHODS
+
+A class method works with class-level data.
+
+It is defined using the @classmethod decorator.
+
+The first parameter is cls, which refers to the class itself.
+
+Class methods are generally used to access or modify
+class attributes.
+
+
+10. STATIC METHODS
+
+A static method does not depend on either the object
+or the class.
+
+It is defined using the @staticmethod decorator.
+
+Static methods are mainly used for utility or
+helper operations.
+
+
+11. SELF KEYWORD
+
+self refers to the current object.
+
+It is used inside instance methods to access
+the object's attributes and methods.
+
+
+12. CONSTRUCTORS
+
+A constructor is used to initialize an object
+when it is created.
+
+In Python, __init__() is commonly used as the
+constructor.
+
+It is automatically called when an object is created.
+
+
+13. OBJECT CREATION
+
+Objects are created from a class.
+
+Each object can have its own instance attributes
+while sharing class-level attributes and methods
+defined by the class.
+
+
+14. ACCESSING ATTRIBUTES
+
+Attributes can be accessed using the dot (.) operator.
+
+General forms:
+
+object_name.attribute_name
+
+ClassName.attribute_name
+
+
+15. ACCESSING METHODS
+
+Methods are also accessed using the dot (.) operator.
+
+Instance methods are generally accessed through
+an object.
+
+Class methods and static methods can be accessed
+through the class.
+
+
+16. FOUR PRINCIPLES OF OOP
+
+The four main principles of Object-Oriented
+Programming are:
+
+• Encapsulation
+• Abstraction
+• Inheritance
+• Polymorphism
+
+
+17. ENCAPSULATION
+
+Encapsulation combines data and methods into
+a single unit.
+
+It also helps protect data from unauthorized
+access and accidental modification.
+
+
+18. ABSTRACTION
+
+Abstraction hides unnecessary implementation details
+and exposes only the required functionality.
+
+It allows users to focus on what an object does
+without needing to know how it works internally.
+
+
+19. INHERITANCE
+
+Inheritance allows one class to acquire the
+properties and methods of another class.
+
+It promotes code reuse and reduces duplication.
+
+
+20. POLYMORPHISM
+
+Polymorphism allows the same method or interface
+to perform different tasks depending on the object.
+
+It makes applications more flexible and easier
+to extend.
+
+
+KEY TAKEAWAY
+
+Class → Blueprint for creating objects.
+
+Object → Instance of a class.
+
+Attribute → Data or property.
+
+Method → Behavior or action.
+
+self → Refers to the current object.
+
+__init__() → Used to initialize an object.
+
+Class attribute → Shared by objects.
+
+Instance attribute → Belongs to a specific object.
+
+Instance method → Works with an object.
+
+Class method → Works with class-level data.
+
+Static method → Independent of object and class.
+
+Encapsulation → Combines and protects data.
+
+Abstraction → Hides implementation details.
+
+Inheritance → Promotes code reuse.
+
+Polymorphism → Same interface, different behavior.

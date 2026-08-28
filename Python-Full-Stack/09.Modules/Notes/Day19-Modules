@@ -1,0 +1,119 @@
+DAY 19 – MODULES
+
+1. WHAT ARE MODULES?
+
+A module is a Python file containing code such as
+functions, variables and classes.
+
+Modules help organize Python programs into separate
+and reusable files.
+
+
+2. ADVANTAGES OF USING MODULES
+
+• Code reusability
+• Better code organization
+• Reduces code duplication
+• Easier maintenance
+• Makes large programs easier to manage
+
+
+3. TYPES OF MODULES
+
+Python modules can be classified into:
+
+• Built-in modules
+• User-defined modules
+• Third-party modules
+
+
+4. IMPORTING MODULES
+
+The import statement is used to use a module
+in another Python program.
+
+A module can be imported using its module name.
+
+
+5. IMPORTING SPECIFIC FUNCTIONS
+
+Specific functions or members can be imported
+from a module.
+
+This allows us to use only the required functionality
+instead of importing the complete module.
+
+
+6. IMPORTING MODULES USING ALIASES
+
+An alias is an alternative name given to a module
+while importing it.
+
+Aliases make module names shorter and easier to use.
+
+
+7. USER-DEFINED MODULES
+
+A user-defined module is a Python file created
+by the programmer.
+
+It can contain functions, variables, classes
+and other Python code.
+
+User-defined modules help divide a large program
+into smaller reusable files.
+
+
+8. __NAME__ VARIABLE
+
+__name__ is a special built-in variable in Python.
+
+Its value depends on how the Python file is being used.
+
+When a file is run directly, __name__ is set to
+"__main__".
+
+
+9. if __name__ == "__main__":
+
+This condition is used to check whether a Python
+file is being executed directly.
+
+Code inside this block runs when the file is executed
+directly and does not run in the same way when the
+file is imported as a module.
+
+
+10. BUILT-IN MODULES
+
+Python provides many built-in modules.
+
+Important modules covered include:
+
+os → Operating system interaction
+
+sys → System-specific functionality
+
+platform → Information about the operating system
+and platform
+
+json → Working with JSON data
+
+math → Mathematical operations
+
+random → Random values and selections
+
+collections → Specialized data structures
+
+itertools → Tools for efficient iteration
+
+
+KEY TAKEAWAY
+
+Modules help in code reusability, better organization,
+reduced code duplication and easier maintenance.
+
+Python's built-in modules provide ready-made
+functionality for different tasks such as system
+interaction, mathematical operations, random values
+and data structures.

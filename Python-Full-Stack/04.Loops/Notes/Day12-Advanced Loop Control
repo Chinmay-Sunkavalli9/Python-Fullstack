@@ -1,0 +1,86 @@
+DAY 12 – ADVANCED LOOPS
+
+1. FOR LOOP WITH ELSE
+
+The else block runs only when the for loop completes
+normally without encountering a break.
+
+If the loop is terminated using break, the else block
+will not execute.
+
+
+2. WHILE LOOP WITH ELSE
+
+The else block runs when the while loop completes
+normally without encountering a break.
+
+If break is used, the else block will not execute.
+
+
+3. BREAK STATEMENT
+
+The break statement is used to exit a loop before
+the loop completes.
+
+It is commonly used when a specific condition is met
+and further iteration is not required.
+
+
+4. CONTINUE STATEMENT
+
+The continue statement skips the remaining statements
+of the current iteration and moves to the next iteration.
+
+It does not terminate the complete loop.
+
+
+5. ASSERT KEYWORD
+
+The assert keyword is used to perform debugging checks
+during development.
+
+It checks whether a given condition is True.
+
+If the condition is False, Python raises AssertionError.
+
+Syntax:
+
+assert condition
+
+or
+
+assert condition, "Error message"
+
+
+6. USE CASES OF ASSERT
+
+Assert can be useful for:
+
+• Unit testing
+• Development and debugging
+• Validating conditions during development
+
+Assertions are not recommended for production validation
+because they can be disabled using Python's -O option.
+
+
+7. BREAK VS CONTINUE VS ASSERT
+
+break → Exits the loop early.
+
+continue → Skips the current iteration.
+
+assert → Checks whether a condition is True and raises
+AssertionError when it is False.
+
+
+KEY TAKEAWAY
+
+for/while with else → else executes when the loop
+completes without break.
+
+break → Stops the loop.
+
+continue → Skips the current iteration.
+
+assert → Checks a condition during development.

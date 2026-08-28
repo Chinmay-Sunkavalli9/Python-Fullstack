@@ -1,0 +1,80 @@
+DAY 6 - INPUT & OUTPUT FORMATTING
+
+1. INPUT()
+
+input() is used to take input from the user.
+
+Syntax:
+input("Enter value: ")
+
+By default, input() returns a string.
+
+
+2. TYPE CONVERSION WITH INPUT
+
+age = int(input("Enter age: "))
+price = float(input("Enter price: "))
+
+
+3. PRINT()
+
+print() is used to display output on the screen.
+
+Example:
+print("Hello World")
+
+
+4. sep
+
+sep defines the separator between multiple items.
+
+Example:
+print("2024", "02", "07", sep="-")
+
+Output:
+2024-02-07
+
+
+5. end
+
+end specifies what to print at the end.
+
+Example:
+print("Hello", end=" ")
+print("World")
+
+Output:
+Hello World
+
+
+6. SPECIAL CHARACTERS
+
+\n → New line
+\t → Tab
+
+
+7. OUTPUT FORMATTING
+
+Comma:
+print("Name:", name, "Age:", age)
+
+Modulo:
+print("Name: %s | Age: %d" % (name, age))
+
+f-string:
+print(f"Name: {name} | Age: {age}")
+
+str.format():
+print("Name: {} | Age: {}".format(name, age))
+
+
+8. F-STRING
+
+f-strings are the modern and recommended formatting method.
+
+Example:
+score = 92.389
+print(f"Score: {score:.2f}")
+
+Output:
+Score: 92.39

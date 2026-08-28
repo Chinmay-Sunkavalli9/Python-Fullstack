@@ -1,0 +1,58 @@
+DAY 04 – TYPE CASTING
+
+1. TYPE CASTING
+
+Type casting is the process of converting one data type into another.
+
+2. IMPLICIT TYPE CASTING
+
+Python automatically converts a smaller data type into a compatible
+larger data type.
+
+Example:
+a = 10
+b = 2.5
+c = a + b
+
+3. EXPLICIT TYPE CASTING
+
+The programmer manually converts one data type into another using
+built-in functions.
+
+Common functions:
+int()
+float()
+str()
+bool()
+
+4. CONVERTING SEQUENCE TYPES
+
+list()
+tuple()
+set()
+
+Examples:
+list("Python")
+tuple([1, 2, 3])
+set([1, 2, 2, 3])
+
+5. DICTIONARY CONVERSION
+
+dict() can convert suitable key-value pairs into a dictionary.
+
+Example:
+dict([("a", 1), ("b", 2)])
+
+6. IMPORTANT POINTS
+
+- int() converts a value to integer when possible.
+- float() converts a value to floating-point.
+- str() converts a value to string.
+- bool() converts a value to Boolean.
+- set() removes duplicate values.
+- Type casting is useful when different data types need to work
+  together.
+
+DAY 4 SUMMARY:
+Learned Implicit Type Casting, Explicit Type Casting and conversion
+using int(), float(), str(), bool(), list(), tuple(), set() and dict().

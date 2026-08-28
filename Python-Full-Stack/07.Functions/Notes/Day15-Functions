@@ -1,0 +1,287 @@
+DAY 15 – FUNCTIONS
+
+1. WHAT IS A FUNCTION
+
+A function is a reusable block of code that performs
+a specific task.
+
+Instead of writing the same code repeatedly, we can
+write it once inside a function and call it whenever required.
+
+
+2. ADVANTAGES OF FUNCTIONS
+
+Functions provide:
+
+• Code reusability
+• Less code duplication
+• Better readability
+• Easy debugging
+• Easy maintenance
+• Modular programming
+
+
+3. TYPES OF FUNCTIONS IN PYTHON
+
+There are mainly two categories:
+
+• Built-in Functions
+• User-defined Functions
+
+
+4. BUILT-IN FUNCTIONS
+
+Built-in functions are already provided by Python.
+
+Common built-in functions include:
+
+print()
+input()
+len()
+type()
+id()
+sum()
+min()
+max()
+sorted()
+abs()
+round()
+
+
+5. USER-DEFINED FUNCTIONS
+
+User-defined functions are created by the programmer
+using the def keyword.
+
+
+6. CREATING A FUNCTION
+
+A function is created using the def keyword.
+
+Syntax:
+
+def function_name():
+    statements
+
+def → Keyword used to define a function.
+
+function_name → Name of the function.
+
+() → Parameter section.
+
+: → Beginning of the function block.
+
+Function body → Statements executed by the function.
+
+
+7. CALLING A FUNCTION
+
+Creating a function does not execute it.
+
+The function must be called to execute its body.
+
+A function body executes only when the function is called.
+
+
+8. FUNCTION EXECUTION FLOW
+
+Function definition
+↓
+Function call
+↓
+Function body executes
+↓
+Control returns to the caller
+
+
+9. FUNCTION WITHOUT PARAMETERS
+
+A function can be created without parameters.
+
+Such functions do not require input values
+from the caller.
+
+
+10. FUNCTION WITH PARAMETERS
+
+A parameter is a variable written inside the
+function definition.
+
+Parameters allow a function to receive input values.
+
+
+11. ARGUMENTS
+
+An argument is a value passed to a function
+when the function is called.
+
+Parameter → Variable in the function definition.
+
+Argument → Actual value passed during the function call.
+
+
+12. RETURN STATEMENT
+
+The return statement is used to send a value
+from a function back to the calling code.
+
+return transfers the result back to the caller.
+
+
+13. PRINT() VS RETURN
+
+print() → Displays data.
+
+return → Sends data back to the caller.
+
+
+14. IMPORTANT RULE OF RETURN
+
+Once Python executes return, the function
+immediately stops.
+
+Statements written after return are not executed.
+
+
+15. FOUR BASIC COMBINATIONS OF FUNCTIONS
+
+Functions can be classified based on:
+
+• Arguments
+• Return value
+
+The four common combinations are:
+
+1. Without arguments, without return
+2. With arguments, without return
+3. Without arguments, with return
+4. With arguments, with return
+
+
+16. KEYWORD ARGUMENTS
+
+Arguments can be passed using parameter names
+instead of depending on their position.
+
+Keyword arguments improve readability,
+especially when a function has many parameters.
+
+
+17. DEFAULT PARAMETERS
+
+A parameter can have a default value.
+
+If no argument is supplied for that parameter,
+Python uses the default value.
+
+
+18. POSITIONAL ARGUMENTS
+
+Arguments can be passed according to the position
+of parameters in the function definition.
+
+The first argument is assigned to the first parameter,
+the second argument to the second parameter, and so on.
+
+
+19. VARIABLE-LENGTH ARGUMENTS
+
+Functions can accept a variable number of arguments.
+
+Two important forms are:
+
+*args → Accepts multiple positional arguments.
+
+**kwargs → Accepts multiple keyword arguments.
+
+
+20. *ARGS
+
+*args allows a function to accept any number of
+positional arguments.
+
+The arguments are collected into a tuple.
+
+
+21. **KWARGS
+
+**kwargs allows a function to accept any number of
+keyword arguments.
+
+The arguments are collected into a dictionary.
+
+
+22. POSITIONAL-ONLY PARAMETERS
+
+Parameters before / can be specified as
+positional-only parameters.
+
+They cannot be passed using keyword arguments.
+
+
+23. KEYWORD-ONLY PARAMETERS
+
+Parameters after * can be specified as
+keyword-only parameters.
+
+They must be passed using their parameter names.
+
+
+24. POSITIONAL-ONLY AND KEYWORD-ONLY TOGETHER
+
+Python allows positional-only and keyword-only
+parameters in the same function.
+
+Parameters before / → Positional-only.
+
+Parameters between / and * → Positional or keyword.
+
+Parameters after * → Keyword-only.
+
+
+25. DOCSTRING
+
+A docstring is a string used to describe
+what a function does.
+
+Docstrings help developers understand the purpose
+of a function, especially in large projects.
+
+
+26. FUNCTION REUSABILITY
+
+Functions allow the same logic to be reused
+multiple times without rewriting the code.
+
+This makes programs shorter, organized and easier
+to maintain.
+
+
+27. MODULAR PROGRAMMING
+
+Functions support modular programming by dividing
+a large program into smaller, manageable functions.
+
+Each function can handle a specific task.
+
+
+KEY TAKEAWAY
+
+def → Creates a function.
+
+Function call → Executes the function.
+
+Parameter → Variable in the function definition.
+
+Argument → Value passed to the function.
+
+return → Sends a value back to the caller.
+
+*args → Multiple positional arguments.
+
+**kwargs → Multiple keyword arguments.
+
+Default parameter → Uses a predefined value
+when no argument is supplied.
+
+Docstring → Describes the purpose of a function.

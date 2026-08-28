@@ -1,0 +1,89 @@
+DAY 26 – ENCAPSULATION
+
+1. ENCAPSULATION
+
+Encapsulation is an OOP concept used to bundle
+data and methods together inside a class.
+
+It also helps protect data and control access
+to the data.
+
+
+2. PUBLIC MEMBERS
+
+Public attributes and methods can be accessed
+directly from outside the class.
+
+
+3. PROTECTED MEMBERS
+
+Protected members are represented using a
+single underscore (_).
+
+They are intended to be accessed within the class
+and its subclasses.
+
+
+4. PRIVATE MEMBERS
+
+Private members are represented using double
+underscores (__).
+
+They are used to restrict direct access from
+outside the class.
+
+
+5. GETTER METHODS
+
+Getter methods are used to safely access the
+values of private attributes.
+
+They provide controlled access to private data.
+
+
+6. SETTER METHODS
+
+Setter methods are used to modify attribute values.
+
+They can also apply validation when required
+before changing the value.
+
+
+7. ACCESS CONTROL
+
+Encapsulation provides different levels of access
+to class members:
+
+Public → Direct access from outside the class.
+
+Protected → Intended for use within the class
+and its subclasses.
+
+Private → Restricts direct access from outside
+the class.
+
+
+8. DATA PROTECTION
+
+Encapsulation helps protect data by controlling
+how class attributes are accessed and modified.
+
+Getter and setter methods provide controlled
+access to private attributes.
+
+
+KEY TAKEAWAY
+
+Encapsulation → Bundles data and methods together
+inside a class and controls access to data.
+
+Public → Directly accessible.
+
+Protected (_) → Intended for class and subclasses.
+
+Private (__) → Restricts direct outside access.
+
+Getter → Safely accesses private attribute values.
+
+Setter → Modifies attribute values with validation
+when required.

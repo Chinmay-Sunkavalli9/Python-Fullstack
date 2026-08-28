@@ -1,0 +1,57 @@
+DAY 06 – INPUT FORMATTING
+
+1. INPUT()
+input() is used to take input from the user.
+By default, input() returns a string.
+
+Example:
+name = input("Enter name: ")
+
+2. INTEGER INPUT
+
+age = int(input("Enter age: "))
+
+3. FLOAT INPUT
+
+price = float(input("Enter price: "))
+
+4. MULTIPLE INPUTS
+
+a, b = input().split()
+
+5. MULTIPLE INTEGER INPUTS
+
+a, b = map(int, input().split())
+
+6. LIST INPUT
+
+numbers = list(map(int, input().split()))
+
+7. TUPLE INPUT
+
+numbers = tuple(map(int, input().split()))
+
+8. SET INPUT
+
+numbers = set(map(int, input().split()))
+
+9. DICTIONARY INPUT
+
+data = dict([("name", "Ravi"), ("age", 23)])
+
+10. IMPORTANT FUNCTIONS
+
+input()  → Takes user input
+split()  → Splits input into parts
+map()    → Applies a function to each item
+list()   → Converts to list
+tuple()  → Converts to tuple
+set()    → Converts to set
+dict()   → Creates dictionary
+
+KEY POINTS
+
+- input() returns string by default.
+- Use int() or float() when numeric input is required.
+- split() is useful for multiple inputs.
+- map() is commonly used for converting multiple inputs.

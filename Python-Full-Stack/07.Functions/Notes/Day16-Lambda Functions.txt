@@ -1,0 +1,163 @@
+DAY 16 – ANONYMOUS (LAMBDA) FUNCTIONS
+
+1. ANONYMOUS FUNCTION
+
+An anonymous function is a function without a name.
+
+In Python, anonymous functions are created using
+the lambda keyword.
+
+They are also called Lambda Functions.
+
+They are usually used for short and simple operations
+that can be written in a single line.
+
+
+2. ADVANTAGES OF LAMBDA FUNCTIONS
+
+• Short and concise code
+• No need to define a function using def
+• Useful for quick calculations
+• Commonly used with filter(), map(), and reduce()
+
+
+3. LAMBDA FUNCTION SYNTAX
+
+Syntax:
+
+lambda parameters: expression
+
+
+4. COMPONENTS OF LAMBDA
+
+lambda → Keyword used to create an anonymous function.
+
+parameters → One or more input values.
+
+expression → A single expression that is evaluated
+and automatically returned.
+
+A lambda function does not require the return keyword.
+
+
+5. GENERAL FORMS
+
+No Parameters:
+
+lambda: expression
+
+One Parameter:
+
+lambda x: expression
+
+Multiple Parameters:
+
+lambda x, y: expression
+
+
+6. NORMAL FUNCTION VS LAMBDA FUNCTION
+
+Normal Function:
+
+• Uses def keyword
+• Usually has a name
+• Can contain multiple statements
+• Uses return to return a value
+• Suitable for complex logic
+
+Lambda Function:
+
+• Uses lambda keyword
+• Can be anonymous
+• Contains a single expression
+• Returns the expression result automatically
+• Suitable for short operations
+
+
+7. GENERAL SYNTAX COMPARISON
+
+Normal Function:
+
+def function_name(parameters):
+    return value
+
+Lambda Function:
+
+variable_name = lambda parameters: expression
+
+
+8. LAMBDA WITH BUILT-IN FUNCTIONS
+
+Lambda functions are commonly used with:
+
+• filter()
+• map()
+• reduce()
+
+They are useful when a small function is required
+temporarily for these operations.
+
+
+9. FILTER()
+
+filter() is used to select elements from an iterable
+based on a condition.
+
+It is commonly combined with lambda functions
+to filter data.
+
+
+10. MAP()
+
+map() is used to apply a function to every element
+of an iterable.
+
+It is commonly used with lambda functions to
+transform data.
+
+
+11. REDUCE()
+
+reduce() is used to apply a function cumulatively
+to the elements of an iterable.
+
+It produces a single final result.
+
+reduce() is available through the functools module.
+
+
+12. WHEN TO USE LAMBDA FUNCTIONS
+
+Lambda functions are useful when:
+
+• The operation is short.
+• The function is needed temporarily.
+• The logic can be written as one expression.
+• Working with functions such as filter(), map(),
+  and reduce().
+
+
+13. LIMITATIONS OF LAMBDA FUNCTIONS
+
+• They can contain only one expression.
+• They are not suitable for complex logic.
+• Multiple statements cannot be written inside
+  a lambda function.
+
+
+KEY TAKEAWAY
+
+lambda → Creates an anonymous function.
+
+parameters → Input values.
+
+expression → Single expression that is automatically returned.
+
+filter() → Filters elements based on a condition.
+
+map() → Applies a function to each element.
+
+reduce() → Combines elements to produce a single result.
+
+Lambda functions are best suited for short,
+simple operations.

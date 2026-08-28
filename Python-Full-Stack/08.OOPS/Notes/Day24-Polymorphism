@@ -1,0 +1,72 @@
+DAY 24 – POLYMORPHISM
+
+1. POLYMORPHISM
+
+Polymorphism means the same operation can behave
+differently depending on the object or data type.
+
+
+2. DUCK TYPING
+
+Duck Typing means Python focuses on whether an object
+has the required method rather than checking its
+exact type.
+
+
+3. OPERATOR OVERLOADING
+
+Operator Overloading means using operators such as
++ and * with different behaviors depending on
+the objects involved.
+
+
+4. METHOD OVERLOADING
+
+Method Overloading means having different parameter
+behaviors for the same method.
+
+In Python, this can be simulated using:
+
+• Default arguments
+• Variable-length arguments
+
+
+5. METHOD OVERRIDING
+
+Method Overriding means redefining a parent class
+method in a child class.
+
+The child class provides its own implementation
+of the method.
+
+
+6. SPECIAL METHODS
+
+Python provides special methods that can be used
+for operator overloading and object representation.
+
+Important special methods include:
+
+__add__() → Used for addition behavior.
+
+__mul__() → Used for multiplication behavior.
+
+__str__() → Used to define the string representation
+of an object.
+
+
+KEY TAKEAWAY
+
+Polymorphism allows the same operation to produce
+different behaviors in Python.
+
+Duck Typing → Focuses on required behavior.
+
+Operator Overloading → Gives operators different
+behaviors for different objects.
+
+Method Overloading → Simulated using default or
+variable-length arguments.
+
+Method Overriding → Redefines a parent method
+in a child class.

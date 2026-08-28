@@ -1,0 +1,140 @@
+LISTS
+
+A list is an ordered, mutable collection used to store multiple values.
+
+Syntax:
+[]
+
+Example:
+numbers = [10, 20, 30]
+
+LIST PROPERTIES
+
+- Ordered
+- Mutable
+- Indexed
+- Iterable
+- Allows duplicates
+- Dynamic size
+- Can store different data types
+
+LIST OPERATIONS
+
+1. Concatenation (+)
+Joins two lists.
+
+2. Repetition (*)
+Repeats list elements.
+
+3. Indexing
+Accesses elements using index positions.
+
+4. Slicing
+Extracts part of a list.
+
+Syntax:
+list[start:end:step]
+
+5. Membership
+in
+not in
+
+BUILT-IN FUNCTIONS
+
+len()
+max()
+min()
+sum()
+sorted()
+list()
+
+LIST METHODS
+
+Adding:
+append()
+extend()
+insert()
+
+Removing:
+remove()
+pop()
+clear()
+del
+
+Searching:
+index()
+count()
+
+KEY POINTS
+
+- Lists are mutable.
+- Lists allow duplicate values.
+- Lists support indexing and slicing.
+- Lists can contain different data types.
+
+
+
+
+
+TUPLES
+
+A tuple is an ordered, immutable collection used to store multiple values.
+
+Syntax:
+()
+
+Example:
+numbers = (10, 20, 30)
+
+TUPLE PROPERTIES
+
+- Ordered
+- Immutable
+- Indexed
+- Iterable
+- Allows duplicates
+- Can store different data types
+
+TUPLE OPERATIONS
+
+1. Concatenation (+)
+Joins two tuples.
+
+2. Repetition (*)
+Repeats tuple elements.
+
+3. Indexing
+Accesses elements using index positions.
+
+4. Slicing
+Extracts part of a tuple.
+
+Syntax:
+tuple[start:end:step]
+
+5. Membership
+in
+not in
+
+TUPLE METHODS
+
+count()
+Counts occurrences of an element.
+
+index()
+Returns the index of an element.
+
+SINGLE-ITEM TUPLE
+
+A comma is required:
+
+student = ("Chinmay",)
+
+Without the comma, it is not treated as a tuple.
+
+KEY POINTS
+
+- Tuples are immutable.
+- Tuples allow duplicate values.
+- Tuples support indexing and slicing.
+- Tuple has fewer methods than a list because it is immutable.

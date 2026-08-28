@@ -1,0 +1,179 @@
+DAY 20 – FILE HANDLING AND FILE OPERATIONS
+
+1. FILE HANDLING
+
+File handling is used to create, read, write and
+modify files using Python.
+
+It allows programs to store and retrieve data
+from files.
+
+
+2. OPENING AND CLOSING FILES
+
+Files are opened using the open() function.
+
+After completing file operations, the file should
+be closed.
+
+Closing a file releases the resources used by it.
+
+
+3. READING FILES
+
+Python provides different methods for reading file data:
+
+read() → Reads the file content.
+
+readline() → Reads one line at a time.
+
+readlines() → Reads all lines and returns them
+as a list.
+
+
+4. WRITING DATA
+
+Writing is used to add data to a file.
+
+The write() method is used to write data into a file.
+
+Writing in write mode can replace existing content.
+
+
+5. APPENDING DATA
+
+Appending is used to add new data to the end
+of an existing file.
+
+Append mode preserves the existing content.
+
+
+6. WITH OPEN()
+
+The with open() statement is used for file handling.
+
+It automatically closes the file after the
+file operations are completed.
+
+It is preferred because it manages the file
+resource automatically.
+
+
+7. FILE MODES
+
+r → Read mode
+
+w → Write mode
+
+a → Append mode
+
+r+ → Read and write mode
+
+w+ → Write and read mode
+
+a+ → Append and read mode
+
+
+8. READ MODE – r
+
+Used to read the contents of an existing file.
+
+The file must already exist.
+
+
+9. WRITE MODE – w
+
+Used to write data into a file.
+
+If the file already contains data, the existing
+content can be overwritten.
+
+
+10. APPEND MODE – a
+
+Used to add data at the end of a file.
+
+Existing content is preserved.
+
+
+11. READ AND WRITE MODE – r+
+
+Allows both reading and writing.
+
+The file must already exist.
+
+
+12. WRITE AND READ MODE – w+
+
+Allows both writing and reading.
+
+Existing content may be overwritten.
+
+
+13. APPEND AND READ MODE – a+
+
+Allows both appending and reading.
+
+New data is added at the end of the file.
+
+
+14. SENDING EMAILS USING PYTHON
+
+Python can be used to send emails using
+the smtplib module.
+
+The EmailMessage class can be used to create
+and manage email content.
+
+
+15. SMTPLIB
+
+smtplib is a Python module used for sending
+emails using the Simple Mail Transfer Protocol (SMTP).
+
+It can be used to connect to an SMTP server
+and send emails.
+
+
+16. EMAILMESSAGE
+
+EmailMessage is used to create the content
+and structure of an email.
+
+It can contain information such as:
+
+• Sender
+• Receiver
+• Subject
+• Email body
+
+
+17. GMAIL SMTP
+
+Python can be used with Gmail SMTP for sending
+emails.
+
+The SMTP connection should be configured securely
+when sending emails.
+
+
+KEY TAKEAWAY
+
+Python file handling allows programs to work
+with files for storing and retrieving data.
+
+read() → Reads file content.
+
+readline() → Reads one line.
+
+readlines() → Reads all lines.
+
+w → Writes data.
+
+a → Appends data.
+
+with open() → Handles files and closes them automatically.
+
+smtplib → Used for sending emails.
+
+EmailMessage → Used to create email content.

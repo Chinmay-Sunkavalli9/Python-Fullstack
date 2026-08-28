@@ -1,0 +1,93 @@
+DAY 4 - TYPE CONVERSION
+
+1. TYPE CONVERSION
+
+Converting one data type into another using:
+int(), float(), str(), bool(), list(), tuple(), set(), dict()
+
+2. IMPLICIT CASTING
+
+Python automatically converts the data type when appropriate.
+
+3. EXPLICIT CASTING
+
+Programmer manually converts the data type using built-in functions.
+
+4. INTEGER CONVERSION
+
+int → float
+int(2) → 2.0
+
+int → str
+str(2) → "2"
+
+int → bool
+bool(2) → True
+
+
+5. FLOAT CONVERSION
+
+float → int
+int(3.1) → 3
+
+float → str
+str(3.1) → "3.1"
+
+float → bool
+bool(3.1) → True
+
+
+6. STRING CONVERSION
+
+x = "10"
+
+int(x) → 10
+float(x) → 10.0
+bool(x) → True
+
+
+7. BOOLEAN CONVERSION
+
+int(True) → 1
+int(False) → 0
+float(True) → 1.0
+str(False) → "False"
+
+
+8. SEQUENCE CONVERSION
+
+List → Tuple
+tuple([10,20,30])
+
+Tuple → List
+list((10,20,30))
+
+List → Set
+set([10,20,20,30])
+→ {10,20,30}
+
+String → List
+list("Python")
+
+String → Tuple
+tuple("Python")
+
+String → Set
+set("Python")
+
+
+9. DICTIONARY CONVERSION
+
+Dictionary requires key-value pairs.
+
+data = [("name","Raju"), ("age",23)]
+dict(data)
+
+
+10. IMPORTANT
+
+list(10), tuple(10), set(10)
+→ TypeError because integer is not iterable.
+
+{} → Empty dictionary
+set() → Empty set

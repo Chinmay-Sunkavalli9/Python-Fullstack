@@ -1,0 +1,86 @@
+DAY 1 – INTRODUCTION TO PROGRAMMING & PYTHON
+
+1. PROGRAMMING
+Programming is the process of writing instructions for a computer
+to perform a task.
+
+Programming Languages:
+Python, Java, C, C++, JavaScript
+
+2. PROGRAMMING PARADIGMS
+
+Procedural Programming:
+- Function-based
+- Step-by-step execution
+- Suitable for small applications
+- Examples: C, Pascal, BASIC
+
+Object-Oriented Programming (OOP):
+- Class and object-based
+- Supports reusability and security
+- Suitable for large applications
+- Concepts: Encapsulation, Inheritance, Polymorphism, Abstraction
+
+3. PROCEDURAL VS OOP
+
+Procedural:
+- Functions
+- Less reusable
+- Less secure
+- Small applications
+
+OOP:
+- Objects
+- More reusable
+- More secure
+- Large applications
+
+4. PYTHON
+
+Python is a high-level, interpreted, general-purpose programming
+language.
+
+Features:
+- Easy to learn
+- Readable syntax
+- Interpreted
+- Object-oriented
+- Open source
+- Dynamically typed
+- Large library ecosystem
+
+Example:
+print("Hello World")
+
+5. PYTHON HISTORY
+
+- Created by Guido van Rossum
+- Development started: 1989
+- First released: 1991
+- Python 3 released: 2008
+
+6. APPLICATIONS OF PYTHON
+
+- Web Development
+- Data Science
+- Artificial Intelligence
+- Automation
+- Cyber Security
+- Game Development
+- Desktop Applications
+
+7. MEMORY ALLOCATION
+
+Procedural:
+- Variables and functions
+- Lower memory usage
+
+OOP:
+- Objects stored in heap memory
+- Object references maintained in stack memory
+- Higher memory usage
+
+DAY 1 SUMMARY:
+Programming, Programming Languages, Procedural Programming,
+OOP, Python Basics, Python Features, Python History,
+Python Applications and Memory Allocation.

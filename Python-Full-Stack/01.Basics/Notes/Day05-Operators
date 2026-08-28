@@ -1,0 +1,68 @@
+OPERATORS
+
+An operator is a symbol or keyword used to perform an operation
+on values or variables.
+
+Types of Operators:
+
+1. Arithmetic Operators
++   Addition
+-   Subtraction
+*   Multiplication
+/   Division
+//  Floor Division
+%   Modulus
+**  Exponent
+
+2. Assignment Operators
+=   Assign
++=  Add and assign
+-=  Subtract and assign
+*=  Multiply and assign
+/=  Divide and assign
+//= Floor divide and assign
+%=  Modulus and assign
+**= Power and assign
+
+3. Comparison Operators
+>   Greater than
+<   Less than
+>=  Greater than or equal
+<=  Less than or equal
+==  Equal to
+!=  Not equal
+
+4. Logical Operators
+and
+or
+not
+
+5. Bitwise Operators
+&
+|
+^
+~
+<<
+>>
+
+6. Membership Operators
+in
+not in
+
+7. Identity Operators
+is
+is not
+
+8. Conditional Operator
+Used to write a simple if-else expression.
+
+Example:
+result = "Pass" if marks >= 40 else "Fail"
+
+KEY POINTS
+
+- Arithmetic operators perform calculations.
+- Comparison operators return True or False.
+- Logical operators combine conditions.
+- Membership operators check whether an item exists.
+- Identity operators check whether two variables refer to the same object.

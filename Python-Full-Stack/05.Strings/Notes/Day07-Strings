@@ -1,0 +1,93 @@
+STRINGS
+
+A string is a sequence of characters enclosed in single quotes,
+double quotes, or triple quotes.
+
+Example:
+name = "Python"
+
+Strings are immutable.
+
+1. STRING OPERATIONS
+
+Concatenation (+)
+Joining strings.
+
+Repetition (*)
+Repeating a string.
+
+Indexing
+Accessing characters using index.
+
+Slicing
+Extracting a part of a string.
+
+Membership
+Checking whether a substring exists.
+
+2. BUILT-IN FUNCTIONS
+
+len()    → Length of string
+max()    → Maximum character
+min()    → Minimum character
+sorted() → Sorted characters
+ord()    → Character to ASCII value
+chr()    → ASCII value to character
+
+3. STRING METHODS
+
+Case Conversion:
+upper()
+lower()
+capitalize()
+title()
+swapcase()
+casefold()
+
+Alignment:
+center()
+ljust()
+rjust()
+zfill()
+
+Searching:
+find()
+rfind()
+index()
+rindex()
+count()
+
+Testing:
+startswith()
+endswith()
+isalpha()
+isdigit()
+isalnum()
+islower()
+isupper()
+isspace()
+
+4. STRING SLICING
+
+Syntax:
+s[start:end:step]
+
+- Start is inclusive.
+- End is exclusive.
+- Positive step → forward.
+- Negative step → reverse.
+- Negative index starts from the end.
+
+Examples:
+s[:]
+s[:4]
+s[4:]
+s[::-1]
+s[-3:]
+
+KEY POINTS
+
+- Strings are immutable.
+- Indexing accesses individual characters.
+- Slicing extracts a substring.
+- s[::-1] reverses a string.

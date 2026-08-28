@@ -1,0 +1,117 @@
+DAY 2 – PYTHON BASICS
+
+1. PYTHON PROGRAM
+- Python program is written in a .py file.
+- print() displays output.
+
+2. PYTHON EXECUTION
+Source Code → Compiler → Bytecode (.pyc) → PVM → Machine Code → Output
+
+3. EXECUTION MODES
+
+Interactive Mode:
+- Executes one statement at a time.
+- Useful for learning, testing and debugging.
+
+Script Mode:
+- Programs are written in a .py file.
+- Suitable for applications and projects.
+
+4. TOKENS
+
+Tokens are the smallest meaningful units of a Python program.
+
+Types:
+- Keywords
+- Identifiers
+- Literals
+- Operators
+- Delimiters
+
+5. STATEMENTS
+
+A statement is an instruction executed by Python.
+
+Example:
+print("Hello")
+a = 10
+
+6. IDENTIFIERS
+
+Identifiers are names given to:
+- Variables
+- Functions
+- Classes
+- Modules
+
+Rules:
+- Start with a letter or _
+- Can contain letters, digits and _
+- Cannot start with a digit
+- Cannot use keywords
+- Case-sensitive
+- Spaces are not allowed
+- Use meaningful names
+
+7. VARIABLES
+
+A variable is a name that refers to an object.
+
+Example:
+age = 24
+
+8. MULTIPLE ASSIGNMENT
+
+a, b, c = 10, 20, 30
+x = y = z = 100
+
+9. REASSIGNMENT
+
+a = 10
+a = 100
+
+10. SWAPPING
+
+a, b = b, a
+
+11. DELETING VARIABLES
+
+del x
+
+12. MUTABLE OBJECTS
+
+Can be changed after creation:
+- List
+- Dictionary
+- Set
+- Bytearray
+
+13. IMMUTABLE OBJECTS
+
+Cannot be changed after creation:
+- int
+- float
+- complex
+- bool
+- str
+- tuple
+- bytes
+- frozenset
+
+14. KEYWORDS
+
+Keywords are reserved words with special meaning in Python.
+
+Examples:
+if, else, for, while, class, def, return,
+True, False, None, import, try, except
+
+To view keywords:
+import keyword
+print(keyword.kwlist)
+
+DAY 2 SUMMARY:
+Python Execution, Execution Modes, Tokens, Statements,
+Identifiers, Variables, Assignment, Reassignment,
+Swapping, Deleting Variables, Mutable & Immutable Objects,
+Variable Naming Rules and Keywords.

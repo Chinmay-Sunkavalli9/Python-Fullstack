@@ -1,0 +1,91 @@
+DAY 7 - STRINGS
+
+1. INTRODUCTION TO STRINGS
+A string is a sequence of characters enclosed in:
+- Single quotes (' ')
+- Double quotes (" ")
+- Triple quotes (''' ''' or """ """)
+
+Strings are immutable.
+
+
+2. STRING OPERATIONS
++  Concatenation
+*  Repetition
+Indexing
+Slicing
+in / not in  Membership
+
+
+3. BUILT-IN STRING FUNCTIONS
+len()     → Length
+max()     → Maximum character
+min()     → Minimum character
+sorted()  → Sorted list
+ord()     → Character to ASCII
+chr()     → ASCII to character
+
+
+4. CASE CONVERSION
+upper()
+lower()
+capitalize()
+title()
+swapcase()
+casefold()
+
+
+5. ALIGNMENT & FORMATTING
+center()
+ljust()
+rjust()
+zfill()
+
+
+6. SEARCH & FIND
+find()
+rfind()
+index()
+rindex()
+count()
+
+
+7. STRING TESTING
+startswith()
+endswith()
+isalpha()
+isalnum()
+islower()
+isupper()
+isspace()
+istitle()
+isidentifier()
+isdecimal()
+isdigit()
+isnumeric()
+
+
+8. REPLACE & MODIFY
+replace()
+translate()
+maketrans()
+
+
+9. SPLIT & JOIN
+split()
+rsplit()
+splitlines()
+join()
+partition()
+rpartition()
+
+
+10. WHITESPACE & TRIMMING
+strip()
+lstrip()
+rstrip()
+
+
+11. ENCODING & DECODING
+encode() → String to bytes
+decode() → Bytes to string

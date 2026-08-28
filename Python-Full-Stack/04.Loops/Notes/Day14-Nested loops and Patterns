@@ -1,0 +1,119 @@
+DAY 14 – NESTED LOOPS AND PATTERNS
+
+1. NESTED LOOPS
+
+A loop inside another loop is called a nested loop.
+
+The outer loop controls the main iterations.
+The inner loop executes for each iteration of the outer loop.
+
+
+2. OUTER LOOP AND INNER LOOP
+
+Outer loop → Controls rows.
+
+Inner loop → Controls columns or items inside each row.
+
+The inner loop completes its execution for every
+iteration of the outer loop.
+
+
+3. ROWS AND COLUMNS
+
+In pattern programs:
+
+Outer loop → Number of rows.
+
+Inner loop → Number of columns or elements in each row.
+
+Understanding rows and columns is important for solving
+pattern problems.
+
+
+4. SQUARE PATTERN
+
+A square pattern contains an equal number of rows
+and columns.
+
+Each row contains the same number of elements.
+
+
+5. RECTANGLE PATTERN
+
+A rectangle pattern contains rows and columns,
+but the number of rows and columns can be different.
+
+
+6. INCREASING TRIANGLE
+
+In an increasing triangle pattern, the number of
+elements increases from one row to the next.
+
+The number of elements depends on the row number.
+
+
+7. DECREASING TRIANGLE
+
+In a decreasing triangle pattern, the number of
+elements decreases from one row to the next.
+
+
+8. NUMBER PATTERNS
+
+Nested loops can be used to generate different
+patterns using numbers.
+
+The value printed can depend on the row or column.
+
+
+9. ALPHABET PATTERNS
+
+Nested loops can also be used to generate patterns
+using alphabets.
+
+The alphabet printed can depend on the row or column.
+
+
+10. PYRAMID PATTERN
+
+A pyramid pattern is created by controlling both
+spaces and elements according to the row number.
+
+The number of spaces and elements changes
+from row to row.
+
+
+11. HOLLOW SQUARE PATTERN
+
+A hollow square pattern prints elements only on
+the boundary.
+
+The inside portion remains empty.
+
+Boundary conditions are used to identify the
+first row, last row, first column and last column.
+
+
+12. IMPORTANT PATTERN LOGIC
+
+Outer loop → Controls rows.
+
+Inner loop → Controls columns/elements.
+
+Row number → Can determine the number of elements.
+
+Column number → Can determine what is printed.
+
+Spaces → Used to control alignment in patterns.
+
+
+KEY TAKEAWAY
+
+Nested loops are the foundation of pattern programs.
+
+Outer loop controls rows.
+
+Inner loop controls columns or elements.
+
+Understanding the relationship between rows and columns
+makes pattern problems easier to solve.

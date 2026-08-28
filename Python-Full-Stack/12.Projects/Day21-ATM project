@@ -1,0 +1,90 @@
+DAY 21 – ATM PROJECT
+
+1. ATM PROJECT
+
+The ATM project is a practical Python application
+that combines different Python concepts into one program.
+
+It follows a menu-driven approach to perform
+different banking operations.
+
+
+2. PIN VALIDATION
+
+PIN validation is used to verify whether the entered
+PIN is correct.
+
+It helps provide basic security before allowing
+the user to access ATM operations.
+
+
+3. BALANCE CHECKING
+
+Balance checking is used to display the current
+account balance.
+
+It allows the user to know the available amount
+in the account.
+
+
+4. DEPOSIT
+
+Deposit is used to add money to the account balance.
+
+The deposited amount is added to the existing balance.
+
+
+5. WITHDRAWAL
+
+Withdrawal is used to take money from the account.
+
+Before withdrawal, the available balance should
+be checked to ensure sufficient funds.
+
+
+6. TRANSACTION HISTORY
+
+Transaction history keeps track of the transactions
+performed by the user.
+
+It can contain details related to deposits and
+withdrawals.
+
+
+7. MENU-DRIVEN PROGRAM
+
+A menu-driven program provides different options
+to the user.
+
+The user selects an option and the corresponding
+operation is performed.
+
+The menu can continue to appear until the user
+chooses to exit.
+
+
+8. PYTHON CONCEPTS USED
+
+The ATM project combines different Python concepts
+to create a practical application.
+
+Important concepts involved include:
+
+• Variables
+• Conditional statements
+• Loops
+• Functions
+• User input
+• Lists or other data structures
+• Basic program logic
+
+
+KEY TAKEAWAY
+
+The ATM project helped me understand how different
+Python concepts can be combined to create a
+practical application.
+
+It provides practice with PIN validation, balance
+checking, deposits, withdrawals, transaction history
+and menu-driven programming.

@@ -1,0 +1,135 @@
+DAY 3 - PYTHON DATA TYPES
+
+1. VARIABLES
+
+A variable is a name that refers to an object (value).
+
+Syntax:
+variable_name = value
+
+Example:
+age = 22
+name = "Harish"
+percentage = 95.5
+
+
+2. PYTHON DATA TYPES
+
+- str
+- int
+- float
+- complex
+- list
+- tuple
+- range
+- dict
+- set
+- frozenset
+- bool
+- NoneType
+
+
+3. STRING (str)
+
+A string is a sequence of characters enclosed in quotes.
+
+Example:
+name = "Raju"
+
+Properties:
+- Text
+- Immutable
+- Ordered
+- Supports indexing
+
+
+4. NUMERIC TYPES
+
+int → Whole numbers
+Example:
+age = 23
+
+float → Decimal numbers
+Example:
+percentage = 97.5
+
+complex → Real + imaginary parts
+Example:
+z = 4 + 5j
+
+
+5. SEQUENCE TYPES
+
+Python provides:
+- list
+- tuple
+- range
+
+
+6. LIST
+
+A list stores multiple values in a single variable.
+
+Example:
+cart = ["Shoes", "Shirt", "Watch"]
+
+Properties:
+- Ordered
+- Mutable
+- Indexed
+- Allows duplicates
+- Can store different data types
+
+Index starts from 0.
+
+
+7. TUPLE
+
+A tuple is an ordered collection enclosed in ().
+
+Example:
+colors = ("Red", "Blue", "Green")
+
+Properties:
+- Ordered
+- Indexed
+- Immutable
+- Allows duplicates
+
+
+8. RANGE
+
+Generates a sequence of numbers.
+
+range(stop)
+range(start, stop)
+range(start, stop, step)
+
+Example:
+range(5) → 0 1 2 3 4
+
+range(0, 10, 2) → 0 2 4 6 8
+
+
+9. TYPE CHECKING
+
+type() is used to check the data type.
+
+Example:
+name = "Raju"
+print(type(name))
+
+
+10. SWAPPING
+
+Recommended Python method:
+
+a, b = b, a
+
+Example:
+a = 10
+b = 20
+a, b = b, a
+
+Output:
+20 10

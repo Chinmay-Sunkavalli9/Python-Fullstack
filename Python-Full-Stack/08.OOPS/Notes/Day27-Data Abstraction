@@ -1,0 +1,80 @@
+DAY 27 – DATA ABSTRACTION
+
+1. DATA ABSTRACTION
+
+Data Abstraction means showing what an object does
+while hiding how it works internally.
+
+It keeps complex internal logic hidden and provides
+a simple and clear interface to the user.
+
+
+2. ABSTRACT CLASSES
+
+An Abstract Class is used as a blueprint for
+child classes.
+
+ABC is used to create abstract classes.
+
+An abstract class defines the structure that
+child classes should follow.
+
+
+3. ABSTRACT METHODS
+
+An Abstract Method is a method that must be
+implemented by the child classes.
+
+The @abstractmethod decorator is used to define
+an abstract method.
+
+It ensures that required methods are implemented
+in child classes.
+
+
+4. CONCRETE METHODS
+
+A Concrete Method is a method with a complete
+implementation.
+
+An abstract class can also contain concrete methods
+along with abstract methods.
+
+
+5. INSTANCE METHODS
+
+Instance methods work with objects.
+
+They use self to access and work with object data.
+
+
+6. ATM EXAMPLE
+
+An ATM provides a simple interface to the user.
+
+The user can perform operations such as:
+
+• Check balance
+• Deposit
+• Withdraw
+
+The user can perform these operations without
+knowing the internal logic behind them.
+
+
+KEY TAKEAWAY
+
+Data Abstraction → Shows what an object does while
+hiding how it works internally.
+
+Abstract Class → Provides a blueprint for child classes.
+
+Abstract Method → Ensures required methods are
+implemented by child classes.
+
+Concrete Method → Contains a complete implementation.
+
+Instance Method → Works with objects using self.
+
+Abstraction keeps things simple for the user by
+hiding unnecessary complexity.

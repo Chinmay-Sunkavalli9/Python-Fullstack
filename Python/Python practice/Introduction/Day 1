@@ -1,0 +1,222 @@
+INTRODUCTION TO PROGRAMMING & PYTHON
+
+1. WHAT IS PROGRAMMING?
+
+Programming is the process of writing instructions that tell a computer what to do.
+
+A set of instructions written to perform a specific task is called a Program.
+
+Real-Time Examples:
+- ATM Withdrawal
+- Online Shopping
+- Food Delivery Apps
+- Instagram Feed Loading
+- YouTube Video Recommendations
+- Uber Ride Booking
+
+
+2. WHAT IS A PROGRAMMING LANGUAGE?
+
+A Programming Language is a language used to communicate with computers and create software applications.
+
+Examples:
+- Python
+- Java
+- C
+- C++
+- JavaScript
+- C#
+- Go
+- Rust
+
+
+3. TYPES OF PROGRAMMING PARADIGMS
+
+1. Procedural Programming
+2. Object-Oriented Programming (OOP)
+
+
+4. PROCEDURAL PROGRAMMING
+
+Procedural Programming focuses on Functions and Procedures.
+
+Main focus:
+- Functions
+- Logic
+- Sequence of Steps
+
+Characteristics:
+- Function Based
+- Top to Bottom Execution
+- Easier for Small Applications
+- Less Code Reusability
+- Data is less secure
+- Difficult to manage large projects
+
+Advantages:
+- Easy to Learn
+- Easy to Write
+- Fast Execution
+- Suitable for Small Programs
+
+Disadvantages:
+- Difficult for Large Projects
+- Data Security Issues
+- Less Reusability
+- Hard to Maintain
+
+
+5. OBJECT-ORIENTED PROGRAMMING (OOP)
+
+Object-Oriented Programming organizes code using Objects and Classes.
+
+Examples:
+- Customer
+- Product
+- Employee
+- Bank Account
+
+Characteristics:
+- Class Based
+- Object Based
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Abstraction
+- Reusability
+- Security
+
+Advantages:
+- Reusable Code
+- Better Security
+- Easy Maintenance
+- Easy Scalability
+- Suitable for Large Applications
+
+Disadvantages:
+- More Memory Usage
+- Slightly Slower Execution
+- More Complex for Beginners
+
+
+6. WHAT IS PYTHON?
+
+Python is a high-level, interpreted, general-purpose programming language created to make programming simple and readable.
+
+Python emphasizes:
+- Simplicity
+- Readability
+- Productivity
+
+Example:
+
+name = "Ravi"
+print(name)
+
+Features of Python:
+- Easy Syntax
+- High Level Language
+- Interpreted Language
+- Object-Oriented
+- Open Source
+- Portable
+- Dynamically Typed
+- Large Community Support
+- Huge Library Ecosystem
+
+
+7. WHY PYTHON?
+
+Python is popular because it requires fewer lines of code and is easy to learn.
+
+Example:
+
+print("Hello World")
+
+Why Companies Use Python:
+- Faster Development
+- Less Code
+- Easy Maintenance
+- Large Ecosystem
+- Strong Community
+
+Companies using Python:
+- Google
+- Netflix
+- Instagram
+- Spotify
+- Dropbox
+
+
+8. HISTORY OF PYTHON
+
+Created by: Guido van Rossum
+Development Started: 1989
+First Release: 1991
+
+Name Origin:
+The name "Python" was inspired by the comedy show
+Monty Python's Flying Circus.
+
+Python Version Timeline:
+Python 1.0 - 1994
+Python 2.0 - 2000
+Python 3.0 - 2008
+
+
+9. APPLICATIONS OF PYTHON
+
+Web Development:
+- Django
+- Flask
+- FastAPI
+
+Data Science:
+- NumPy
+- Pandas
+- Matplotlib
+
+Artificial Intelligence:
+- TensorFlow
+- PyTorch
+- Scikit-Learn
+
+Automation:
+- Excel Automation
+- Email Automation
+- Web Scraping
+- File Handling
+
+Cyber Security:
+- Network Scanning
+- Penetration Testing
+- Security Automation
+
+Game Development:
+- Pygame
+- 2D Games
+- Educational Games
+
+Desktop Applications:
+- Tkinter
+- PyQt
+- Calculator
+- Billing Software
+- Management Systems
+
+
+10. MEMORY ALLOCATION: PROCEDURAL VS OOP
+
+Procedural Programming:
+- Memory mainly stores variables and functions.
+- Memory usage is relatively low.
+- Uses Stack Memory.
+
+OOP:
+- Objects are created in Heap Memory.
+- Each object stores attributes and method references.
+- Objects consume more memory because every object stores its own state.
+
+Procedural vs OOP:
+Procedural - Less memory, variables + functions
+OOP - More memory, objects + attributes

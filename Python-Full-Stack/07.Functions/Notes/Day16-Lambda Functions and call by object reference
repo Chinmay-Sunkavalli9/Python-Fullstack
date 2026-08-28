@@ -1,0 +1,49 @@
+DAY 16 – LAMBDA FUNCTIONS & CALL BY OBJECT REFERENCE
+
+1. ANONYMOUS / LAMBDA FUNCTIONS
+
+A lambda function is a small anonymous function
+used for short and simple operations.
+
+2. LAMBDA SYNTAX
+
+lambda parameters: expression
+
+Example:
+square = lambda x: x * x
+
+3. filter(), map() AND reduce()
+
+filter() → Selects elements based on a condition.
+map() → Transforms each element.
+reduce() → Combines elements into a single result.
+
+4. SORTING USING LAMBDA
+
+lambda can be used with sorted() to specify
+which value should be used for sorting.
+
+Example:
+sorted(students, key=lambda x: x[1])
+
+5. CALL BY OBJECT REFERENCE
+
+Python passes a reference to the same object
+when an object is passed to a function.
+
+Modifying a mutable object can affect the
+original object.
+
+6. MUTABLE AND IMMUTABLE OBJECTS
+
+Mutable → list, dictionary, set
+Can be modified after creation.
+
+Immutable → int, float, string, tuple
+Cannot be modified after creation.
+
+KEY TAKEAWAY
+
+Lambda functions are useful for short operations.
+Changes to mutable objects inside a function can
+be reflected outside the function.

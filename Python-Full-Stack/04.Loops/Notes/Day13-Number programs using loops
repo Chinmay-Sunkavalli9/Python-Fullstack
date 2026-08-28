@@ -1,0 +1,185 @@
+DAY 13 – NUMBER PROGRAMS USING LOOPS
+
+1. NUMBER PROGRAMS USING LOOPS
+
+Number programs can be solved using loops and basic
+digit-processing operations.
+
+Common number programs include:
+
+• Reverse a number
+• Palindrome
+• Sum of digits
+• Count even digits
+• Armstrong number
+• Factors of a number
+• Count number of factors
+• Factorial of a number
+
+
+2. IMPORTANT NUMBER-PROGRAM OPERATIONS
+
+n % 10
+
+Gets the last digit of a number.
+
+n // 10
+
+Removes the last digit of a number.
+
+n % i == 0
+
+Checks whether i is a factor of n.
+
+count = count + 1
+
+Used to count something.
+
+
+3. DIGIT-BASED PROGRAM FLOW
+
+Read the number.
+
+Store the original number if required.
+
+Process the number while n > 0.
+
+Get the last digit.
+
+Process the digit.
+
+Remove the last digit.
+
+Repeat until the number becomes 0.
+
+
+4. REVERSE A NUMBER
+
+Reversing a number means arranging its digits
+in the opposite order.
+
+The last digit is obtained using % 10.
+
+The last digit is removed using // 10.
+
+
+5. PALINDROME NUMBER
+
+A palindrome number remains the same when its digits
+are reversed.
+
+The original number is compared with its reversed number.
+
+
+6. SUM OF DIGITS
+
+Sum of digits means adding all the digits
+of a number.
+
+Each digit can be extracted using % 10.
+
+
+7. COUNT EVEN DIGITS
+
+Even digits are digits divisible by 2.
+
+Condition:
+
+digit % 2 == 0
+
+A counter can be used to count the even digits.
+
+
+8. FACTORS OF A NUMBER
+
+A factor is a number that divides another number
+without leaving a remainder.
+
+Condition:
+
+n % i == 0
+
+
+9. COUNT NUMBER OF FACTORS
+
+Instead of printing the factors, a counter can be
+used to count the total number of factors.
+
+The counter increases whenever a factor is found.
+
+
+10. FACTORIAL OF A NUMBER
+
+Factorial means multiplying a number by all
+positive numbers below it.
+
+Factorial is represented using !.
+
+For a positive number n:
+
+n! = n × (n - 1) × ... × 1
+
+
+11. ARMSTRONG NUMBER
+
+For a 3-digit number, if the sum of the cubes
+of its digits is equal to the original number,
+it is an Armstrong number.
+
+
+12. CONTINUE STATEMENT
+
+The continue statement skips the current iteration
+and moves to the next iteration of the loop.
+
+
+13. BREAK VS CONTINUE
+
+continue → Skips the current iteration.
+
+break → Stops the entire loop.
+
+pass → Does nothing.
+
+
+14. MASTER FLOW FOR DIGIT-BASED PROGRAMS
+
+Read number
+
+↓
+
+Store original if required
+
+↓
+
+while n > 0
+
+↓
+
+Get last digit
+
+↓
+
+Process the digit
+
+↓
+
+Remove last digit
+
+↓
+
+Repeat until n becomes 0
+
+
+KEY TAKEAWAY
+
+% 10 → Get the last digit
+
+// 10 → Remove the last digit
+
+% i == 0 → Check whether a number is a factor
+
+count = count + 1 → Count values
+
+The % 10 and // 10 technique is an important
+pattern for solving Python number programs.

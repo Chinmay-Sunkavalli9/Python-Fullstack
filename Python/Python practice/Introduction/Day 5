@@ -1,0 +1,130 @@
+DAY 5 - OPERATORS
+
+1. OPERATORS
+
+Operators are symbols or keywords that perform operations on values or variables.
+
+Types:
+- Arithmetic
+- Assignment
+- Comparison
+- Logical
+- Bitwise
+- Membership
+- Identity
+- Conditional (Ternary)
+
+
+2. ARITHMETIC OPERATORS
+
++   Addition
+-   Subtraction
+*   Multiplication
+/   Division
+//  Floor Division
+%   Modulus
+**  Exponent
+
+Example:
+a = 10
+b = 2
+print(a + b)
+
+
+3. ASSIGNMENT OPERATORS
+
+Used to assign or update values.
+
+=
++=
+-=
+*=
+/=
+%=
+//=
+**=
+
+
+4. COMPARISON OPERATORS
+
+Used to compare values.
+
+==
+!=
+>
+<
+>=
+<=
+
+
+5. LOGICAL OPERATORS
+
+and → True if both conditions are True
+or  → True if at least one condition is True
+not → Reverses the condition
+
+
+6. BITWISE OPERATORS
+
+Operate on binary numbers.
+
+&
+|
+^
+~
+<<
+>>
+
+
+7. MEMBERSHIP OPERATORS
+
+Check whether an item exists in a sequence.
+
+in
+not in
+
+Example:
+ids = [101, 102, 103]
+101 in ids → True
+
+
+8. IDENTITY OPERATORS
+
+Check whether two variables refer to the same object.
+
+is
+is not
+
+== → compares values
+is → compares object identity
+
+
+9. CONDITIONAL / TERNARY OPERATOR
+
+Used to write if-else in a single line.
+
+Syntax:
+value_if_true if condition else value_if_false
+
+Example:
+result = "Pass" if marks >= 35 else "Fail"
+
+
+10. OPERATOR PRECEDENCE
+
+Highest → Lowest
+
+()
+**
++x, -x, ~x
+*, /, //, %
++, -
+<<, >>
+&
+^
+|
+Comparison, identity, membership
+not
+and
+or
+Conditional expression
